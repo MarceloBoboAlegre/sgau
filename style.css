@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(63, 121, 36);
+}
+
+main {
+    display: inline-block;
+    width: 50%;
+    margin-top: 50px;
+}
+
+main#login {
+    position: relative;
+    bottom: 120px;
+}
+
+header {
+    color: white;
+    text-align: center;
+    font-family: "STIX Two Text", Arial, Helvetica, sans-serif;
+
+    height: 55px;
+    width: 100%;
+    margin: 0px 0px 15px 0px;
+}
+
+header > h1{
+    font-size: 3em;
+}
+
+section {
+    height: 100%;
+    width: 100%;
+}
+
+form > input{
+    color: rgb(148, 145, 145);
+    font-size: larger;
+    text-align: center;
+
+    height: 55px;
+    width: 300px;
+    margin: 35px auto 10px auto;
+    border-radius: 35px;
+    padding: 5px 80px;
+    display: block;
+
+    border: 0px;
+    box-shadow: 2px 2px 7px #234414;
+}
+
+form > input:enabled {
+    color: black;
+}
+
+form > input:focus {
+    border: 3px solid #555;
+}
+
+form > a {
+    max-height: 20px;
+    margin-left: 25%;
+    padding: 2px 5px;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+
+form > a:hover {
+    background-color: #509b2d;
+    border-radius: 10px;
+}
+
+.entrar {
+    color: black;
+    text-align: center;
+
+    margin: 35px auto;
+    width: 150px;
+    padding: 5px 20px;
+}
+
+.entrar:hover {
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+img {
+    display: inline-block;
+    width: 49%;
+    height: 680px;
+    margin: 0px;
+    border-radius: 5px;
+}
+
+div.exemplo {
+    margin-top: 50px;
+    display: inline-flex;
+    width: 49%;
+    height: 600px;
+    background-color: lightslategray;
+}
